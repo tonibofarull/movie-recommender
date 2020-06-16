@@ -3,7 +3,6 @@ import json
 import re
 
 def Netflix(MAX_USER = 1000):
-
     d_movie = dict()
     s_movie = set()
     
