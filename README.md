@@ -1,6 +1,11 @@
 # Movie Recommender
 
-The project is written in Python 3.
+The project is written in Python 3. Check *requirements.txt*.
+
+Datasets integrated in the database:
+
+* [Netflix](https://www.kaggle.com/Netflix-inc/Netflix-prize-data)
+* [TMDB](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
 
 ## Proof of concept
 
@@ -26,10 +31,10 @@ And finally, the system returns a list of at most as many recommendations as the
 
 ![alt text](https://github.com/tonibofarull/MovieRecommender/blob/master/images/out2.png)
 
-In addition, the user can choose to filter by selection multiple genres, the system will display the list of possibilities. At the very least, the film has to be from one of the list. The selection of the genres is made using a list of the indexes. In case we show below are "Action" and "War".
+In addition, the user can choose to filter by selecting multiple genres, the system will display the list of possibilities. At the very least, the film has to be from one of the list. The selection of the genres is made using a list of the indexes. In case we show below are "Action" and "War".
 
 ![alt text](https://github.com/tonibofarull/MovieRecommender/blob/master/images/out3.png)
 
-As we can see, in this case the system is able to show only 2 recommendations. As we have selected a genre from one of the films shown above, it is also shown here. In addition, a movie is shown that had not entered the previous top but in this case it does because of the filtering.
+As we can see, in this case the system can show only 2 recommendations. As we have selected a genre from one of the films shown above, it is also shown here. Also, a movie is shown that had not been in the top before but in this case it does because of the filtering.
 
 ![alt text](https://github.com/tonibofarull/MovieRecommender/blob/master/images/out4.png)
